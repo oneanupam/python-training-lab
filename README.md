@@ -1,26 +1,48 @@
-# App Repo Template
+# Python Training Lab
 
-A ready-to-use template repository for quickly bootstrapping new projects.
+This repository contains simple and practical python scripts to help understand python scripting concepts.
 
 ## Prerequisites
 
+### Software Requirement
+Resources in this repository are meant for use with Python 3.x (check the version using `python3 --version`) and pip3 (check the version using `pip3 --version`). If you don't have the compatible version, download it from official python repository.
+
 - [pre-commit](https://pre-commit.com/) >= 4.2.0
-- [kubectl](https://kubernetes.io/docs/tasks/tools/) >= v1.30.5
-- [helm](https://helm.sh/) >= 3.13.1
+- [python3](https://www.python.org/downloads/) >= 3.10.14
+- [pip3](https://pypi.org/project/pip/) >= 23.0.1
 
 > [!NOTE]
-> See [Installation Guide](https://kubernetes.io/docs/tasks/tools/) on how to install Kubernetes Tools.
+> See [Download Section](https://www.python.org/downloads/) on how to install Python.
+
+### Bootstrap Virtual Environment
+It is a best practice to create a virtual environment for your application to avoid any conflict in dependencies between multiple applications. Hence, it is recommended to create a virtual environment (using python's default package "venv" or of your choice) and install all the dependencies. Follow below according to your operating system.
+
+```bash
+# Linux OS
+python3 -m venv example-app-venv
+source example-app-venv/bin/activate
+pip install -r requirements.txt
+
+# Windows OS
+python -m venv example-app-venv
+example-app-venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+> [!NOTE]
+> Activation makes the virtual environment the default Python interpreter for the duration of a shell session. Because, This will prepend that directory to your PATH, so that running python will invoke the virtual environment’s Python interpreter. As an indication of virtual environment activation, current shell prompt will prepend the name of the virtual environment you are currently using.
+>
+> To deactivate the environment, simply type `deactivate` and you will return to your normal shell.
+>
+> Within the virtual environment, you can use the command `pip` instead of `pip3` and `python` instead of `python3`.
 
 ## Repo Layout
-At a high level, these folders make up the `github.com/oneanupam/app-repo-template` repository.
+At a high level, these folders make up the `github.com/oneanupam/python-training-lab` repository.
 
 - [`.github/`](./.github) - This folder contains the codeowners, pull request template and github action yaml files.
 - [`.vscode/`](./.vscode) - It contains project-specific settings and configurations to customize how VS Code behaves for the workspace.
 - [`build/`](./build) - This folder contains the build config files to build/deploy the application code.
 - [`docs/`](./docs) - This folder contains the documentations related to the repository.
-- [`examples/`](./examples) - This folder contains the examples to use the module or code.
-- [`helm-charts/`](./helm-charts) - This folder contains the helm chart to deploy the kubernetes manifests.
-- [`helm-overrides/`](./helm-overrides) - This folder contains the override files to pass to variables declared in helm charts.
 - [`src/`](./src) - This folder contains the application code or scripts.
 - [`.pre-commit-config.yaml`](.pre-commit-config.yaml) - This file contains the plugin configuration for pre-commit.
 - [`.editorconfig`](.editorconfig) - This file has the configuration for the editorconfig plugin.
