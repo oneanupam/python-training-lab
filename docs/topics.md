@@ -1,7 +1,11 @@
 # Python Topics
 
-## Variables
-01.
+## Basics
+01. Demonstrate print function
+02. Demonstrate keywords
+03. Demonstrate input, print and type function
+04. Demonstrate single line, multi-line statements
+05. Demonstrate string formatting
 
 ## Data Types
 01.
