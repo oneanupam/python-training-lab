@@ -7,6 +7,7 @@ Example:
     (curly braces {}) which are then replaced by the arguments passed to the method.
 - F-strings provide a concise and readable way to embed expressions inside string literals.
     They are identified by an f or F prefix before the opening quote of the string.
+    The f or F prefix can be used interchangeably and there is no difference between them.
 """
 
 name = "Anupam"
