@@ -3,6 +3,7 @@ Module: py04_lists_01.py
 Description: Demonstrates lists in python.
 Documentation:
 - List is a hybrid data type.
+- List is an ordered data type.
 - List is a mutable data type. Means, its values can be updated.
 - Values are separated by commas and enclosed within square brackets [ ].
 """
