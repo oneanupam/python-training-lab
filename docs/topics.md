@@ -17,6 +17,8 @@
 07. Python script to demonstrate about tuple data type buil-in functions
 08. Python script to demonstrate about dictionary data type
 09. Python script to demonstrate about dictionary data type built-in functions
+10. Python script to demonstrate about set data type
+11. Python script to demonstrate about set data type built-in functions
 
 ## Operators
 01.
@@ -39,7 +41,16 @@
 08. Demonstrate pass statement in python.
 
 ## Functions
-01.
+01. Demonstrate user defiend functions in python.
+02. Demonstrate user defiend functions with named arguments in python.
+03. Demonstrate Pass by value and Pass by reference in Python
+04. Demonstrate user defiend functions returning a function in python.
+05. Demonstrate user defiend functions returning a function reference in python.
+06. Demonstrate user defiend functions returning a function reference in python.
+07. Demonstrate user defiend functions with variable length parameters in python.
+08. Demonstrate user defiend functions with variable length keyworded parameters in python.
+09. Demonstrate functions using *args & **kwargs in python.
+10. Demonstrate functions using positional, named and variable length params in python.
 
 ## Modules and Packages
 01.
